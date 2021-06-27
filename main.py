@@ -176,7 +176,7 @@ def login():
 
 def generate_account_number():
     """
-
+    function that generates 10 random numbers
     :return:
     """
     generated_number = random.randrange(1111111111, 9999999999)
